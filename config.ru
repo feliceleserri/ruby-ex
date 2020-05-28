@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift</h1>
+            <h1>BENVENUTI Hello World </h1>
           </hgroup>
 
 
@@ -252,15 +252,6 @@ pre {
                   You can configure a webhook in your repository to make OpenShift automatically start a build whenever you push your code:
                 </p>
 
-<ol>
-  <li>From the Web Console homepage, navigate to your project</li>
-  <li>Click on Browse &gt; Builds</li>
-  <li>From the view for your Build click on the button to copy your GitHub webhook</li>
-  <li>Navigate to your repository on GitHub and click on repository settings &gt; webhooks</li>
-  <li>Paste your webhook URL provided by OpenShift &mdash; that's it!</li>
-</ol>
-<p>After you save your webhook, if you refresh your settings page you can see the status of the ping that Github sent to OpenShift to verify it can reach the server.</p>
-<p>Note: adding a webhook requires your OpenShift server to be reachable from GitHub.</p>
 
                 <h3>Working in your local Git repository</h3>
                 <p>If you forked the application from the OpenShift GitHub example, you'll need to manually clone the repository to your local system. Copy the application's source code Git URL and then run:</p>
